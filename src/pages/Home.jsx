@@ -49,7 +49,7 @@ function HomePage() {
     return (
         <div>
              <h1>&#128536;</h1>
-            <h1>Welcome:&#10084;&#65039; {loggedInUser}</h1>
+            <h1>I love You:&#10084;&#65039; {loggedInUser}</h1>
             <br></br><br></br>
             <button onClick={handleLogout}>Logout</button>
             <ToastContainer />
