@@ -25,7 +25,7 @@ function HomePage() {
     
     const fetchProducts=async()=>{
         try{
-            const URL="https://backend-auth-5ncs342cl-jatin32326s-projects.vercel.app/products";
+            const URL="https://backend-auth-app-4gcr.onrender.com/products";
             const response=  await fetch(URL,headers);
             const headers={
                 headers:{
