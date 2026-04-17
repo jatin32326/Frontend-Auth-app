@@ -26,7 +26,7 @@ function Login(){
             return handleError(" email & password are required")
         }
         try{
-            const url="https://backend-auth-5ncs342cl-jatin32326s-projects.vercel.app/auth/login"
+            const url="https://backend-auth-app-4gcr.onrender.com/auth/login"
             const response=await fetch(url,{
                 method:"POST",
                 headers:{
