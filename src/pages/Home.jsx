@@ -25,7 +25,7 @@ function HomePage() {
     
     const fetchProducts=async()=>{
         try{
-            const URL="http://localhost:3000/products";
+            const URL="https://backend-auth-app-one.vercel.app/products";
             const response=  await fetch(URL,headers);
             const headers={
                 headers:{
